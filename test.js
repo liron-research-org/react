@@ -10,7 +10,7 @@ function bad2(userInput) {
   document.body.outerHTML = userInput;
 }
 
-function bad3(userInput) {
+function bad3(userInput) { 
   const name = '<div>' + userInput + '</div>';
 // ruleid: insecure-document-method
   document.write(name);
